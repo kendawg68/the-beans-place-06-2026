@@ -54,6 +54,7 @@
 // for the navigation links in the NavBar.
 
 /* --- YOUR COMPONENT CODE GOES HERE --- */
+import FooterSection from "./components/FooterSection";
 import HeroSection from "./components/HeroSection";
 import NavBar from "./components/NavBar";
 
@@ -81,7 +82,9 @@ export default function App() {
             {/* Contact */}
 
             {/* Footers */}
-            
+            <section className="bg-footer">
+                <FooterSection />
+            </section>
         </div>
     );
 }
