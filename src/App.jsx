@@ -57,6 +57,7 @@
 import FooterSection from "./components/FooterSection";
 import HeroSection from "./components/HeroSection";
 import NavBar from "./components/NavBar";
+import ContactSection from "./components/ContactSection";
 
 export default function App() {
     return(
@@ -80,6 +81,9 @@ export default function App() {
             {/* About */}
 
             {/* Contact */}
+            <section className="bg-cta" id="contact">
+                <ContactSection />
+            </section>
 
             {/* Footers */}
             <section className="bg-footer">
