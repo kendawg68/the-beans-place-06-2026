@@ -88,11 +88,11 @@ import logo from "../assets/Beans_logo.png";
 import Button from "./ui/Button";
 
 export default function NavBar() {
-    const {menuOpen, setMenuOpen} = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);
     // container
     // function to update the state
     // default position or value
-    const {scrolled, setScrolled} = useState(false);
+    const [scrolled, setScrolled] = useState(false);
     
     const closeMenu = () => setMenuOpen(false);
 
