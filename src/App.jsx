@@ -118,6 +118,8 @@ import { Ribbon } from "lucide-react";
 import ProductShowcase from "./components/ProductShowcase";
 import FeaturesSection from "./components/FeaturesSection";
 import CtaSection from "./components/CtaSection";
+import AboutSection from "./components/AboutSection";
+
 
 export default function App() {
     return (
@@ -136,24 +138,28 @@ export default function App() {
 
             {/* FEATURES / CAROUSEL */}
             <section className="features bg-features" id="shop">
-              <FeaturesSection />
-              
+              <FeaturesSection />            
             </section>
 
             {/* PRODUCT SHOWCASE */}
             <section>
                 <ProductShowcase />
             </section>
+
             {/* CTA */}
             <section className="bg-cta">
                 <CtaSection />
             </section>
+
             {/* ABOUT */}
+            <section className="bg-cta" id="about">
+                <AboutSection />
+            </section>
 
             {/* CONTACT */}
             <section className="bg-cta" id="contact">
                 <ContactSection />
-                {/* <ContactForm /> */}
+            {/* <ContactForm /> */}
             </section>
 
             {/* FOOTER */}
@@ -163,4 +169,3 @@ export default function App() {
         </div>
     );
 }
- 
