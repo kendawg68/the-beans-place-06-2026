@@ -1065,14 +1065,14 @@ a {
     font-weight: 800;
     line-height: 1.05;
     letter-spacing: -0.02em;
-    color: var(--cream);
+    color: var(--amber);
     margin: 0 0 16px;
 }
 
 .product-showcase-subtitle {
     font-size: 17px;
     line-height: 1.7;
-    color: rgba(255, 255, 255, 0.65);
+    color: var(--amber);
     max-width: 52ch;
     margin: 0 auto 48px;
 }
@@ -1147,7 +1147,7 @@ a {
     font-family: var(--font-body);
     font-size: 17px;
     font-weight: 700;
-    color: var(--cream);
+    color: var(--amber);
     margin: 0;
 }
 
@@ -1155,12 +1155,12 @@ a {
     font-family: var(--font-body);
     font-size: 20px;
     font-weight: 800;
-    color: var(--amber-light);
+    color: var(--amber);
 }
 
 .product-origin {
     font-size: 13px;
-    color: rgba(255, 255, 255, 0.5);
+    color: var(--amber);
     text-transform: uppercase;
     letter-spacing: 0.04em;
     font-weight: 600;
@@ -1169,7 +1169,7 @@ a {
 
 .product-notes {
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--amber);
     line-height: 1.5;
     margin: 0;
 }
